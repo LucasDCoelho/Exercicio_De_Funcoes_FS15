@@ -33,28 +33,28 @@ function media(teo: number, prat1: number, prat2: number){
 }
 
 
-let manha = new Date('0 05:00');
-let tarde =  new Date('0 12:00');
-let noite =  new Date('0 18:00');
+// let manha = new Date('0 05:00');
+// let tarde =  new Date('0 12:00');
+// let noite =  new Date('0 18:00');
 
-let manhaEnd = new Date('0 11:59')
-
-
-console.log(manhaEnd.getTime())
+// let manhaEnd = new Date('0 11:59')
 
 
+// console.log(manhaEnd.getTime())
 
-function parkTime(time: number){
+
+
+// function parkTime(time: number){
   
 
-  if(time >= 5 && time <= 11.59){
-    console.log("Manhã")
-  } else if(time >= 12 && time <= 17.59){
-    console.log("Tarde")
-  } else if(time >= 18 && time <= 4.59){
-    console.log("Noite")
-  }
+//   if(time >= 5 && time <= 11.59){
+//     console.log("Manhã")
+//   } else if(time >= 12 && time <= 17.59){
+//     console.log("Tarde")
+//   } else if(time >= 18 && time <= 4.59){
+//     console.log("Noite")
+//   }
 
-}
+// }
 
-console.log(Date.now())
+// console.log(Date.now())
